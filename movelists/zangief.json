@@ -1,0 +1,87 @@
+{
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Iron Claw",
+        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "German Suplex",
+        "input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Stomach Block",
+        "input": "{behindOpponent}, {close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Flying Body Press",
+        "input": "{inAir}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Russian Suplex",
+        "input": "{far}, :360:+[K]"
+      },
+      {
+        "name": "Bear Hug",
+        "input": "{far}, :360:+[K], {then} {press} [P]"
+      },
+      {
+        "name": "Atomic Suplex",
+        "input": "{close}, :360:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "Aerial Russian Slam",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Super Stomping",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Cancel",
+        "input": ":qcb:+[K]",
+        "after": "Super Stomping"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Cosmic Final Atomic Buster",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
