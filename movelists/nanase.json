@@ -87,13 +87,14 @@
     ]
   },
   "custom_strings": {
-    "english": [
-      { "whenHit": "when hit" },
-      { "toChangeAttack": "to change the attack" }
-    ],
-    "portuguese": [
-      { "whenHit": "ao ser acertado" },
-      { "toChangeAttack": "para alterar o ataque" }
-    ]
+    "english": 
+    {
+      "whenHit": "when hit",
+      "toChangeAttack": "to change the attack"
+    },
+    "portuguese": {
+      "whenHit": "ao ser acertado",
+      "toChangeAttack": "para alterar o ataque"
+    }
   }
 }
