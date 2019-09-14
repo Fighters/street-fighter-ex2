@@ -1,0 +1,70 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hayate"
+    },
+    "japan": {
+      "roman": "Hayate",
+      "original": "ハヤテ"
+    }
+  },
+  "images": {
+    "face": "hayate.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Madomashi",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Kagura Hozan",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Enrakushisho",
+        "input": ":f:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kamaitachi",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Oborozuki",
+        "input": ":qcf:+[K] > :f:+[K]"
+      },
+      {
+        "name": "Hisenzan",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Shiraha Tenjin",
+        "input": ":rdp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Resshin Kamaitachi",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Raizansho",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Tsumujikagero Kyoku",
+        "input": "{inAir}, :qcb::qcb:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Orochi Fujin",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
