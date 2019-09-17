@@ -56,12 +56,12 @@
     "{specialMoves}": [
       {
         "name": "Upload",
-        "input": "{hold} [LP]+[MP]+[HP] {then} {release}",
+        "input": "[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})",
         "extraInfo": "{onlyWithArm}"
       },
       {
         "name": "Download",
-        "input": "{hold} :d:+[LP]+[MP]+[HP] {then} {release}",
+        "input": ":d:+[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toControlDistance})",
         "extraInfo": "{onlyWithArm}"
       },
       {
