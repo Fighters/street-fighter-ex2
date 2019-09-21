@@ -81,7 +81,7 @@
     ]
   },
   "custom_strings": {
-    "english": [{ "toChangeAttack": "to change the attacks" }],
-    "portuguese": [{ "toChangeAttack": "para alterar os ataques" }]
+    "english": { "toChangeAttack": "to change the attacks" },
+    "portuguese": { "toChangeAttack": "para alterar os ataques" }
   }
 }
