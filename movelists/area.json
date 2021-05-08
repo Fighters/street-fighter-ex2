@@ -56,7 +56,7 @@
     "{specialMoves}": [
       {
         "name": "Upload",
-        "input": "[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})",
+        "input": "{press} [LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})",
         "extraInfo": "{onlyWithArm}"
       },
       {
@@ -71,7 +71,7 @@
       },
       {
         "name": "Thunder Break",
-        "input": "[LP]+[MP]+[HP]",
+        "input": "{press} [LP]+[MP]+[HP]",
         "after": "Humming Rush"
       },
       {
