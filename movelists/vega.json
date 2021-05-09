@@ -15,17 +15,17 @@
     "{normalThrows}": [
       {
         "name": "Wall Smash",
-        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
       },
       {
         "name": "Whirlwind Suplex",
-        "input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
       }
     ],
     "{uniqueAttacks}": [
       {
         "name": "Backslash",
-        "input": "[LK]+[MK]+[HK]"
+        "input": "{press} [LK]+[MK]+[HK]"
       }
     ],
     "{specialMoves}": [
@@ -43,12 +43,12 @@
       },
       {
         "name": "Flying Barcelona Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Flying Barcelona"
       },
       {
         "name": "Izuna Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Flying Barcelona"
       },
       {
@@ -77,12 +77,12 @@
       },
       {
         "name": "Flying Barcelona Special Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Flying Barcelona Special"
       },
       {
         "name": "Rolling Izuna Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Flying Barcelona Special"
       }
     ]
