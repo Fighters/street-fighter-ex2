@@ -21,11 +21,11 @@
     "{specialMoves}": [
       {
         "name": "Le Ali Di Aero",
-        "input": "[LP]+[MP]+[HP]"
+        "input": "{press} [LP]+[MP]+[HP]"
       },
       {
         "name": "Rage of Etna",
-        "input": "[K]",
+        "input": "{press} [K]",
         "after": "Le Ali Di Aero"
       },
       {
