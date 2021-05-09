@@ -49,7 +49,7 @@
       },
       {
         "name": "Daikaku",
-        "input": "[LP]+[MP]+[HP]"
+        "input": "{perto} [LP]+[MP]+[HP]"
       }
     ],
     "{superCombos}": [
