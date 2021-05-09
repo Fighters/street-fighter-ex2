@@ -46,8 +46,12 @@
         "input": ":qcb:+[K], {then} :b:+[K] ({upTo3x})"
       },
       {
-        "name": "Maku Shihai",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+        "name": "Maku Shihai (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Maku Shihai (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
       }
     ],
     "{superCombos}": [
