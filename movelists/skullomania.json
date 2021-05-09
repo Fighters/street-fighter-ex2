@@ -89,7 +89,7 @@
       },
       {
         "name": "Skullo Dive",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Skullo Head"
       },
       {
