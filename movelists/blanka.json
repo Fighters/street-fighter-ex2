@@ -15,7 +15,7 @@
     "{normalThrows}": [
       {
         "name": "Wild Fang",
-        "input": "{close} :b: {or} :f:+[HP]"
+        "input": "{close}, :b: {or} :f:+[HP]"
       }
     ],
     "{uniqueAttacks}": [
