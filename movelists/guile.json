@@ -15,15 +15,15 @@
     "{normalThrows}": [
       {
         "name": "Judo Throw",
-        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
       },
       {
         "name": "Dragon Suplex",
-        "input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
       },
       {
         "name": "Flying Buster Drop",
-        "input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
       }
     ],
     "{uniqueAttacks}": [
