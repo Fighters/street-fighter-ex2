@@ -15,11 +15,11 @@
     "{normalThrows}": [
       {
         "name": "Tiger Carry",
-        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
       },
       {
         "name": "Tiger Rage",
-        "input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
       }
     ],
     "{specialMoves}": [
