@@ -1,24 +1,27 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "Street Fighter EX2"
-      },
-      {
-        "region": "japan",
-        "roman": "Street Fighter EX2",
-        "original": "ストリートファイターEX2"
-      }
-    ],
-    "also-known-as": ["sfex2", "sf ex2", "ex2 plus", "ex2"]
-  },
+  "names": [
+    {
+      "region": "default",
+      "roman": "Street Fighter EX2"
+    },
+    {
+      "region": "japan",
+      "roman": "Street Fighter EX2",
+      "original": "ストリートファイターEX2"
+    }
+  ],
+  "also-known-as": [
+    "sfex2",
+    "sf ex2",
+    "ex2 plus",
+    "ex2"
+  ],
   "platforms": [
     {
-      "platform": "Arcade",
+      "name": "Arcade",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX2",
           "original": "ストリートファイターEX2",
           "releaseDate": "03-12-1998",
@@ -26,21 +29,21 @@
           "publisher": "Capcom"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX2",
           "releaseDate": "05-26-1998",
           "developer": "Arika",
           "publisher": "Capcom"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter EX2",
           "releaseDate": "03-12-1998",
           "developer": "Arika",
           "publisher": "Capcom"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX2 Plus",
           "original": "ストリートファイターEX2 PLUS",
           "releaseDate": "06-11-1999",
@@ -48,7 +51,7 @@
           "publisher": "Capcom"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX2 Plus",
           "releaseDate": "06-11-1999",
           "developer": "Arika",
@@ -57,10 +60,10 @@
       ]
     },
     {
-      "platform": "PlayStation",
+      "name": "PlayStation",
       "regions": [
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX2 Plus",
           "releaseDate": "05-25-2000",
           "developer": "Arika",
@@ -68,7 +71,7 @@
           "coverFront": "ps1-us-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter EX2 Plus",
           "releaseDate": "2000",
           "developer": "Arika",
@@ -76,327 +79,13 @@
           "coverFront": "ps1-eu-front.webp"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX2 Plus",
           "original": "ストリートファイターEX2 PLUS",
           "releaseDate": "12-24-1999",
           "developer": "Arika",
           "publisher": "Capcom",
           "coverFront": "ps1-jp-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryu"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryu",
-          "original": "リュウ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ken Masters"
-        },
-        {
-          "region": "japan",
-          "roman": "Ken Masters",
-          "original": "ケン・マスターズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chun-Li"
-        },
-        {
-          "region": "japan",
-          "roman": "Chun-Li",
-          "original": "チュンリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "M. Bison"
-        },
-        {
-          "region": "japan",
-          "roman": "Vega",
-          "original": "ベガ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Zangief"
-        },
-        {
-          "region": "japan",
-          "roman": "Zangief",
-          "original": "ザンギエフ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Dhalsim"
-        },
-        {
-          "region": "japan",
-          "roman": "Dhalsim",
-          "original": "ダルシム"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Guile"
-        },
-        {
-          "region": "japan",
-          "roman": "Guile",
-          "original": "ガイル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Hokuto"
-        },
-        {
-          "region": "japan",
-          "roman": "Hokuto",
-          "original": "ほくと"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Doctrine Dark"
-        },
-        {
-          "region": "japan",
-          "roman": "Doctrine Dark",
-          "original": "ドクトリン・ダーク"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Pullum Purna"
-        },
-        {
-          "region": "japan",
-          "roman": "Pullum Purna",
-          "original": "プルム・プルナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Cracker Jack"
-        },
-        {
-          "region": "japan",
-          "roman": "Cracker Jack",
-          "original": "クラッカー・ジャック"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Skullomania"
-        },
-        {
-          "region": "japan",
-          "roman": "Skullomania",
-          "original": "スカロマニア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kairi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kairi",
-          "original": "カイリ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Darun Mister"
-        },
-        {
-          "region": "japan",
-          "roman": "Darun Mister",
-          "original": "ダラン・マイスター"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Garuda"
-        },
-        {
-          "region": "japan",
-          "roman": "Garuda",
-          "original": "ガルダ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Blanka"
-        },
-        {
-          "region": "japan",
-          "roman": "Blanka",
-          "original": "ブランカ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sagat"
-        },
-        {
-          "region": "japan",
-          "roman": "Sagat",
-          "original": "サガット"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Vega"
-        },
-        {
-          "region": "japan",
-          "roman": "Balrog",
-          "original": "バルログ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Nanase"
-        },
-        {
-          "region": "japan",
-          "roman": "Nanase",
-          "original": "七瀬"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Vulcano Rosso"
-        },
-        {
-          "region": "japan",
-          "roman": "Vulcano Rosso",
-          "original": "ヴルカーノ・ロッソ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Area"
-        },
-        {
-          "region": "japan",
-          "roman": "Area",
-          "original": "エリア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sharon"
-        },
-        {
-          "region": "japan",
-          "roman": "Sharon",
-          "original": "シャロン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shadowgeist"
-        },
-        {
-          "region": "japan",
-          "roman": "Shadowgeist",
-          "original": "シャドウガイスト"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Hayate"
-        },
-        {
-          "region": "japan",
-          "roman": "Hayate",
-          "original": "ハヤテ"
         }
       ]
     }
